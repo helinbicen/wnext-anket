@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+
+}
+
+* {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.warning {
+  font-style: italic;
+}
+
+.city-state-choices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.age-choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  background-color: green;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.sex-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+ .biological-sexes button {
+   margin: 5px;
+}
+
+.group-choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.category-choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; 
+}
+
+.place-choices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
